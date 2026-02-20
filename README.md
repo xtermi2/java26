@@ -1,4 +1,4 @@
-[![Java CI](https://github.com/xtermi2/java25/actions/workflows/maven.yml/badge.svg)](https://github.com/xtermi2/java25/actions/workflows/maven.yml)
+[![Java CI](https://github.com/xtermi2/java26/actions/workflows/maven.yml/badge.svg)](https://github.com/xtermi2/java26/actions/workflows/maven.yml)
 
 # Schedule
 
