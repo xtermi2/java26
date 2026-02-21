@@ -11,7 +11,7 @@ public class Final {
         }
     }
 
-    static void main() throws NoSuchFieldException, IllegalAccessException {
+    public void modifyFinalFieldViaReflection() throws NoSuchFieldException, IllegalAccessException {
         // 1. Perform deep reflection over the final field in C
         java.lang.reflect.Field f = C.class.getDeclaredField("x");
         f.setAccessible(true);      // Make C's final field mutable

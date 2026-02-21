@@ -69,11 +69,19 @@
 
 ## [JEP 529: Vector API (Eleventh Incubator)](https://openjdk.org/jeps/529)
 
-- TODO
+- Introduce an API to express vector computations that reliably compile at runtime to optimal vector instructions on supported CPUs, thus achieving performance superior to equivalent scalar computations.
+- The Vector API will incubate until necessary features
+  of [Project Valhalla](https://openjdk.org/projects/valhalla/) become available as preview features. At
+  that time, the Vector API will be adapted and its implementation to use them, and will be promoted from incubation
+  to preview.
 
 ## [JEP 530: Primitive Types in Patterns, instanceof, and switch (Fourth Preview)](https://openjdk.org/jeps/530)
 
-- TODO
+- Enhance pattern matching by allowing primitive type patterns in all pattern contexts, and extend instanceof and
+    switch to work with all primitive types.
+- Notable changes since last preview in JDK 25:
+  - Enhance the definition of unconditional exactness and apply tighter dominance checks in switch constructs. These changes enable the compiler to identify a wider range of coding errors, although a small number of switch constructs that were previously legal will now be rejected.
+- see example `PrimitiveTypesInPatterns.java`
 
 ----------------------
 
