@@ -30,6 +30,7 @@
 ## [JEP 522: G1 GC: Improve Throughput by Reducing Synchronization](https://openjdk.org/jeps/522)
 
 - Increase application throughput when using the G1 garbage collector by reducing the amount of synchronization required between application threads and GC threads.
+- In applications that heavily modify object-reference fields, there have been throughput gains in the range of 5–15%.
 
 ## [JEP 524: PEM Encodings of Cryptographic Objects (Second Preview)](https://openjdk.org/jeps/524)
 
